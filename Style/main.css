@@ -27,8 +27,8 @@ header .container {
 header .logo {
     color: var(--vermelho);
     font-family: 'Satans minions', times;
-    font-size: 40px;
-    margin-left: 5px;
+    font-size: 35px;
+    margin: 10px 5px 10px 5px;
 }
 
 header nav a {
