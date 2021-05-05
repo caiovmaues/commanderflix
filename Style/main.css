@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
 /********* B A S E *********/
 
 body {
@@ -26,7 +28,7 @@ header .container {
 
 header .logo {
     color: var(--vermelho);
-    font-family: 'Satans minions', times;
+    font-family: 'Coda caption', sans-serif, times;
     font-size: 35px;
     margin: 10px 5px 10px 5px;
 }
@@ -112,4 +114,29 @@ header nav a:hover {
     margin-left: 15px;
     margin-bottom: 10px
 
+}
+
+.carousel-archetype .item a img:hover {
+    opacity: 0.7;
+    transform: scale(0.9);
+}
+
+/********* R E S P O N S I V E *********/
+
+@media screen and (max-width:700px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 75%;
+    }
 }
